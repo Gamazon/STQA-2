@@ -1,0 +1,51 @@
+body{
+    height: 100%;
+}
+
+span{
+    width: 140px;
+}
+
+#loginDiv{
+    position: absolute;
+    top: 110px;
+    bottom: 0;
+    width: 100%; 
+
+    background-image: url('health1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#linkRegister{
+    color: #000000;
+    font-size: 125%;
+    font-family: "Times New Roman",  Verdana, Tahoma, sans-serif;
+}
+
+#formLogin{
+    width: 40%;
+    height: 300px;
+    margin: auto;
+    margin-top: 30px;
+    background-color:#e0ffe7;
+    opacity: 0.925;
+    border: 3px solid #40c25d;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+
+#loginSpan{
+    font-size: xx-large;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    width: 100%;
+}

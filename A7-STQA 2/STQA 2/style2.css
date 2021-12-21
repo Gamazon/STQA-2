@@ -1,0 +1,109 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+button{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.nav_item{
+  margin-left: 5px;
+  margin-right: 2px;
+}
+.fruitCategory, .herbCategory{
+
+  padding-left: 10%;
+  padding-right: 10%;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("health3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.herbCategory{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("health2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.categoryHead{
+  padding-top: 2.5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  color: black;
+} 
+.categoryHead h3, .categoryHead p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.7em;
+  letter-spacing: 3px;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+ .categoryHead p{
+   font-size: 2em;
+   letter-spacing: normal;
+   font-style: italic;
+   margin-bottom: 30px;
+  
+ }
+ hr.myhr{
+  border-color: black;
+  border-width: 2px;
+ }
+ .products p{
+   font-size: large;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   margin-bottom: 30px;
+   
+ }
+ .row{
+  margin-top: 20px;
+  margin-bottom: 20px;   
+ }
+ .column {
+  float: left;
+  width: 33.33%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ .productCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: #ffffff;
+}
+.innerDiv{
+  float:right;
+  display:inline;
+  padding:5px;
+  border : 1px solid;
+  border-radius : 10px;
+  text-align:center;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.productCard button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+ .modalSpans{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: large;
+ }
+
